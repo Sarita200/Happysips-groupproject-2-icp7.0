@@ -24,10 +24,12 @@ body {
 
 .call {
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .d-flex {
     margin-top: 15px;
+    margin-left: 50px;
 }
 
 .home-btn {
@@ -66,4 +68,8 @@ body {
 #tbSubject {
     width: 310px;
     margin-left: 20px;
+}
+.img {
+    width: 27px;
+    margin-left: 45px;
 }
