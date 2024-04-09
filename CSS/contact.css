@@ -1,63 +1,91 @@
+.hero {
+    background-color:  antiquewhite;
+    width: 100%;
+    
+}
 
-
-.bg-img {
-    background-image: url("./../images/bg-3.png");
+.product-card-info {
+    background-image:   url("./../images/bg-img.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;;
+    width: 1300px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 30px auto;
+    padding: 3px;
 }
+.product-card-info-1{
+    width: 1300px;
+    height: 430px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 30px auto;
+    padding: 3px;
+}
+.product-card-sm {
 
-.call{
-    font-size: 20px;
-    margin-left: 10px;
-    cursor: pointer;
+    width: 380px;
+    height: 420px;
+    margin-left: 800px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     
+   margin-top: 30px;
+    padding: 3px;
 }
-.d-flex
-{
-    margin-top: 15px;
-}
-
-.heading-1 {
-    margin-left: 30px;
-    margin-top: 30px;
+.heading {
+    margin-top: 7px;
+    margin-left: 900px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.heading-2 {
-    margin-left: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   
+.bg-img {
+    width: 1500px;
+    height: 530;
+    margin-left: 50px;
+    margin-top: 200px;
 }
-
-.icon {
-    width: 30px;
-    margin-left: 20px;
+.main-btn {
+    margin-left: 120px;
+    border-radius: 10px;
+    border: none;
     
-}
+        background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+        padding: 7px 30px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
 
-.heading-3 {
-    margin-left: 150px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-}
-#exampleFormControlInput1 {
-    width: 800px;
-    height: 50px;
-  
-}
-#exampleFormControlInput2 {
-    width: 800px;
-    height: 50px;
-}
-#exampleFormControlTextarea1 {
-    width: 800px;
-    height: 100px;
-}
-.form-label {
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.btn-1 {
-    margin-left: 300px;
-}
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     #name {
+        margin-top: 2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+
+     .heading-1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+
+     }
+     .Icon {
+        width: 30px;
+     }
