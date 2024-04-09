@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/CSS/Style.css" />
-    <link rel="stylesheet" href="/CSS/Home.css">
+    <link rel="stylesheet" href="./../CSS/Home.css" />
+    <link rel="stylesheet" href="./../CSS/Style.css">
+    
+    
+
     <title>Happy Sips</title>
   </head>
   <body>
@@ -23,7 +26,7 @@
             <h1>Happy Sips</h1>
           </div>
           <div>
-            <img src="/Icons/logo_new.png" class="nav-img" />
+            <img src="./../Icons/logo_new.png" class="logo" />
           </div>
         </div>
         <div class="search-main">
@@ -40,20 +43,20 @@
       
       <div class="section2">
         <div class="left">
-            <span class="number"> call +913456891756</span>
+            <span class="number"> <a href="tel:+913456891756">call +913456891756</a></span>
         </div>
         <ul class="middle">
-          <li class="current"><a href="#">Home </a></li>
-          <li><a href="#">Blog </a></li>
-          <li><a href="#">Menu </a></li>
-          <li><a href="#">Recipe </a></li>
+          <li class="current"><a href="/Pages/Home.html">Home </a></li>
+          <li><a href="/Pages/Blogs.html">Blog </a></li>
+          <li><a href="/Pages/Menu.html">Menu </a></li>
+          <li><a href="/Pages/Recipe.html">Recipe </a></li>
           <li>
             <select class="dropdown">
               <option value="actual value 1">Pages</option>
-              <option value="actual value 2"><a href="#">Kids </a></option>
+              <option value="actual value 2"><a href="/Pages/Kids.html">Kids </a></option>
 
-              <option value="actual value 3"><a href="#">About </a></option>
-              <option value="actual value 3"><a href="#">Contact </a></option>
+              <option value="actual value 3"><a href="/Pages/Aboutus.html">About </a></option>
+              <option value="actual value 3"><a href="/Pages/Contact.html">Contact </a></option>
             </select>
           </li>
         </ul>
@@ -84,9 +87,31 @@
 
     </div>
 
+      <h1 class="subheading">Juice Categories</h1>
 
+    <div class="category">
+      
+        <div class="card">
+          <img src="/images/green.webp" alt="fruit category" class="card-img">
+          <h3>Vegetable Juices </h3>
+          
+        </div>
+
+        <div class="card">
+          <img src="/images/yellow.webp" alt="fruit category" class="card-img">
+          <h3>Fruit Juices</h3>
+          
+        </div>
+
+        <div class="card">
+          <img src="/images/red.webp" alt="fruit category" class="card-img">
+          <h3>Mixed Juices</h3>
+          
+        </div>
+     
+    </div>
     
-
+    <hr>
     <footer>
         <div class="container">
 
@@ -94,10 +119,10 @@
             <h2>About Us</h2>
             <p> Experience the taste of nature's bounty in every sip, knowing you're enjoying the finest, most flavorful juice possible.</p>
             <ul class="sci">
-              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9302820&mcid=6844056167778418689&cid=&gad_source=1&gclid=Cj0KCQjwztOwBhD7ARIsAPDKnkDRwYDFsc3of8LDmxY6ncpgwSj5fxsHWkyX3PnYFTZ2xSnZUqm-UpkaAlb-EALw_wcB&gclsrc=aw.ds"><i class="fa-brands fa-linkedin-in"></i></a></li>
 
 
             </ul>
@@ -145,5 +170,8 @@
     <div class="copyrighttext">
       <p>Copyright © 2024 Happy Sips. All rights reserved.</p>
     </div>
+
+
+    
   </body>
 </html>
