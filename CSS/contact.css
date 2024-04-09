@@ -1,50 +1,63 @@
 
-body {
-    background-size: cover;
-}
-
-.call {
-    font-size: 20px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.d-flex {
-    margin-top: 15px;
-    margin-left: 50px;
-}
-
-.main-btn {
-    margin-left: 400px;
-    width: 100px;
-    border-radius: 10px;
-}
-
-
-.h-1 {
-    margin-top: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-}
-
-.h-3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-}
-
-.img {
-    width: 27px;
-    margin-left: 45px;
-}
 
 .bg-img {
-    min-height: 100vh;
-}
-
-.body {
-    background-image: url("../images/bg-2.png");
-    min-height: auto;
+    background-image: url("./../images/bg-3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.call{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.d-flex
+{
+    margin-top: 15px;
+}
+
+.heading-1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading-2 {
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.icon {
+    width: 30px;
+    margin-left: 20px;
+    
+}
+
+.heading-3 {
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+#exampleFormControlInput1 {
+    width: 800px;
+    height: 50px;
+  
+}
+#exampleFormControlInput2 {
+    width: 800px;
+    height: 50px;
+}
+#exampleFormControlTextarea1 {
+    width: 800px;
+    height: 100px;
+}
+.form-label {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-1 {
+    margin-left: 300px;
 }
