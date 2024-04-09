@@ -1,9 +1,9 @@
 .parent-container {
-    width: 400px;
+    width: 350px;
     height: 480px;
     border-radius: 15px;
     background-image: linear-gradient(to right, #ef32d9 0%, #89fffd 51%, #ef32d9 100%);
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 50px;
     text-align: center;
     transition: 0.5s;
@@ -48,21 +48,22 @@ body {
 
 .msg-btn {
     display: flex;
-    margin-top: 45px;
+    margin-top: 35px;
+    border-radius: 10px;
     
 }
 
 #tbName  {
-    width: 150px;
-   margin-left: 10px;
+    width: 310px;
+   margin-left: 20px ;
    
 }
 
 #tbEmail {
-    width: 180px;
-    margin-left: 0 auto;
+    width: 310px;
+    margin-left: 20px 
 }
 #tbSubject {
-    width: 350px;
-    margin: 10px auto;
+    width: 310px;
+    margin-left: 20px;
 }
