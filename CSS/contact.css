@@ -18,16 +18,7 @@
     margin: 30px auto;
     padding: 3px;
 }
-.product-card-info-1{
-    width: 1300px;
-    height: 430px;
-    border-radius: 20px;
-    background-color: #ffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: block;
-    margin: 30px auto;
-    padding: 3px;
-}
+
 .product-card-sm {
 
     width: 380px;
@@ -36,7 +27,6 @@
     border-radius: 20px;
     background-color: #ffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
    margin-top: 30px;
     padding: 3px;
 }
@@ -89,3 +79,5 @@
      .Icon {
         width: 30px;
      }
+    
+    
