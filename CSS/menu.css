@@ -165,3 +165,128 @@ nav{
     border-radius: 30px;
     transition: 0.5s;
 }
+footer{
+    padding: 50px 100px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgb(81, 118, 63);
+}
+
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+footer .container .sec h2{
+    position: relative;
+    color: wheat;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .container .sec p{
+    color: #fff ;
+}
+
+footer .container .sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+
+}
+
+footer .container .sci li{
+    list-style: none;
+}
+
+footer .container .sci li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: wheat;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer .container .sci li a i{
+    color: black;
+    font-size: 20px;
+
+}
+footer .container .quicklinks{
+    position: relative;
+}
+
+footer .container .quicklinks ul li{
+    list-style: none;
+}
+
+footer .container .quicklinks ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .container .contact .info{
+    position: relative;
+}
+footer .container .contact .info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+footer .container .contact .info li span{
+    color: #fff;
+    font-size: 20px;
+    gap: 10px;
+}
+
+footer .container .contact .info li span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container .contact .info li span i{
+    color: wheat;
+}
+
+.copyrighttext{
+    width: 100%;
+    background: #fff;
+    padding: 20px 100px 30px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+
+@media (max-width: 991px)
+{
+    footer{
+        padding: 40px;  
+    }
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;}
+    .copyrighttext{
+        padding: 20px 40px 30px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;}  
+
+}
+
+
