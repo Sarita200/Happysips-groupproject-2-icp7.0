@@ -1,14 +1,15 @@
 .hero {
-    background-color:  antiquewhite;
+    background-color: antiquewhite;
     width: 100%;
-    
+
 }
 
 .product-card-info {
-    background-image:   url("./../images/bg-img.png");
+    background-image: url("./../images/bg-img.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;;
+    background-size: cover;
+    ;
     width: 1300px;
     height: 530px;
     border-radius: 20px;
@@ -20,19 +21,19 @@
 }
 
 .product-card-sm {
-
-    width: 380px;
+    width: 580px;
     height: 420px;
-    margin-left: 800px;
+    margin-left: 350px;
     border-radius: 20px;
     background-color: #ffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-   margin-top: 30px;
+    margin-top: 10px;
     padding: 3px;
 }
+
 .heading {
     margin-top: 7px;
-    margin-left: 900px;
+    margin-left: 550px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -42,42 +43,42 @@
     margin-left: 50px;
     margin-top: 200px;
 }
+
 .main-btn {
-    margin-left: 120px;
+    margin-left: 220px;
     border-radius: 10px;
     border: none;
-    
-        background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
-        padding: 7px 30px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;            
-        box-shadow: 0 0 20px #eee;
-        border-radius: 10px;
-        display: block;
-      }
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+    padding: 7px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #001f4d;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
 
-      .btn-grad:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: #fff;
-        text-decoration: none;
-      }
-     #name {
-        margin-top: 2px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-     }
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
 
-     .heading-1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 30px;
-        margin-left: 20px;
-        margin-top: 10px;
+#name {
+    margin-top: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-     }
-     .Icon {
-        width: 30px;
-     }
-    
-    
+.heading-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.Icon {
+    width: 30px;
+}
