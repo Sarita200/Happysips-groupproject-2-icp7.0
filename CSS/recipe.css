@@ -20,4 +20,11 @@ body{
     margin-top: -15px;
     border-radius: 40px;
  }
- 
+ .btn-primary{
+    border-radius: 50px;
+    width: 120px;
+ }
+ .btn-primary:hover{
+    background-color: blue;
+    border: none;
+ }
