@@ -153,12 +153,13 @@ transition: 1s;
 }
 
 .card-container{
-  margin: 25px auto;
+
   border: solid gray 1px;
   padding: 10px;
   width: 95%;
   border-radius: 8px;
   display: flex;
+  justify-content: space-around;
   
   
 }
