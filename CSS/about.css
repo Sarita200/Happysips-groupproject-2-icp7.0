@@ -1,6 +1,4 @@
-*{
-    text-align: center;
-}.title{
+.title{
     font-size: 28px;
     text-align: center;
 }
@@ -13,6 +11,9 @@
   .about1 .p1 {
     font-size: 30px;
     color: rgb(36, 35, 35);
+  }
+  .members{
+    text-align: center;
   }
   .members .we-are {
     font-size: 70px;
