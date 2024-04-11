@@ -123,6 +123,9 @@ nav{
 .img2{
     margin-left: 30px;
 }
+.hamburger{
+    display: none;
+}
 
 footer{
     padding: 50px 100px;
@@ -238,6 +241,18 @@ footer .container .contact .info li span i{
     }
 }
 
+@media (max-width:900px){
+    .section2 .middle{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
 @media (max-width: 768px)
 {
     
@@ -247,6 +262,10 @@ footer .container .contact .info li span i{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;}  
 
+    
+    .section1 .left{
+        display: none;
+    }
 }
 
 
