@@ -10,8 +10,8 @@
 
 }
 .small-text{
-    font-family: cursive;
-    font-size: 20px;
+    font-family:  cursive;
+    font-size: 26px;
     font-weight: bolder;
 }
 .big-text{
@@ -40,7 +40,7 @@
     
     width: auto;
 
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     cursor: pointer;
 }
 
@@ -52,19 +52,62 @@
 
 .card h3{
     text-align: end;
-    font-size: 30px;
+    font-size: 45px;
     padding-right: 40px;
     position: relative;
-    bottom: 190px;
+    bottom: 220px;
+    font-family: "Dancing Script", cursive;
+   
+    font-weight: 1500;
+}
+
+.next{
+    display: block;
+    justify-content: center;
+    margin: 10px auto;
+    width: 50px;
 }
 
 .subheading{
     text-align: center;
     margin: 70px 0px;
-    font-size: 40px;
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
 }
 
+.services-img{
+    width: 150px;
+    border: 2px dashed rgb(81, 118, 63);
+    border-radius: 50%;
+    padding: 24px;
+}
 
+.services{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.service-text{
+    text-align: center;
+    margin-top: 10px;
+    color: #003C43;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.hero-btn{
+    background: transparent;
+    border: none;
+}
 @media (max-width: 800px){
     
     .big-text{
