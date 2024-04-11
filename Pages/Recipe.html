@@ -14,7 +14,13 @@
 <body>
     <div class="container py-5">
         <h1 class="text-center">Juice Recipe</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search for juice recipes...">
+            <button onclick="searchRecipes()" class="search-button">Search</button>
+        </div>
+     </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-3">
 
             <div class="col">
                 <div class="card">
@@ -26,8 +32,22 @@
                             Sip the sweetness of nature's pearl."</p>
                     </div>
                     <div class="mb-5 d-flex justify-content-around">
-                        <button class="btn btn-primary">View More</button>
+                        <button class="btn btn-primary" onclick="showRecipe('recipe1')">View More</button>
                     </div>
+                    <div id="recipe1" class="recipe-content">
+                        <p>Ingredients:</p>
+                        <ul>
+                          <li>3 Oranges</li>
+                          <li>2 Carrots</li>
+                        </ul>
+                        <p>Instructions:</p>
+                        <ol>
+                          <li>Peel and slice the oranges.</li>
+                          <li>Wash and chop the carrots.</li>
+                          <li>Run the oranges and carrots through a juicer.</li>
+                          <li>Enjoy your fresh juice!</li>
+                        </ol>
+                      </div>
                 </div>
             </div>
 
@@ -161,6 +181,76 @@
 
         </div>
     </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get reference to the input field
+            const searchInput = document.getElementById("searchInput");
+    
+            // Add event listener for input event
+            searchInput.addEventListener("input", function () {
+                // Get the search query
+                const query = searchInput.value.trim().toLowerCase();
+    
+                // Get all recipe cards
+                const recipeCards = document.querySelectorAll(".card");
+    
+                // Flag to track if any matching recipes are found
+                let foundMatch = false;
+    
+                // Loop through each recipe card
+                recipeCards.forEach(function (card) {
+                    // Get the recipe title
+                    const title = card.querySelector(".card-title").innerText.toLowerCase();
+    
+                    // Check if the title contains the search query
+                    if (title.includes(query)) {
+                        // If it does, show the card
+                        card.style.display = "block";
+                        foundMatch = true;
+                    } else {
+                        // If it doesn't, hide the card
+                        card.style.display = "none";
+                    }
+                });
+    
+                // Update the placeholder text of the search input field
+                if (foundMatch || query === "") {
+                    searchInput.placeholder = "Search for a juice...";
+                } else {
+                    searchInput.placeholder = "No recipes found";
+                }
+            });
+        });
+
+        function showRecipe(id) {
+    var recipeContent = document.getElementById(id);
+    var modalContent = document.getElementById("modal-content");
+    modalContent.innerHTML = recipeContent.innerHTML;
+    document.getElementById('myModal').style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+  }
+
+    </script>
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </script>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
