@@ -1,19 +1,19 @@
-.video{
+.video {
     text-align: center;
-    
-    
+
+
 }
 
-.video video{
+.video video {
     width: 1200px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    
+
 }
 
-.discription{
+.discription {
     text-align: start;
     width: 1200px;
     font-size: 20px;
@@ -21,38 +21,64 @@
 
 }
 
-.title{
+.title {
     font-family: "Dancing Script", cursive;
     font-size: 54px;
     font-weight: 1500;
     font-style: normal;
     margin-bottom: 20px;
-    
-}
-
-.button{
-   text-align: start;
-   margin-left: 130px;
-   margin-top: 10px;
 
 }
 
-.btn-read-more{
+
+.button {
+    text-align: start;
+    margin-left: 130px;
+    margin-top: 10px;
+
+}
+
+.btn-read-more {
     padding: 8px;
     border-radius: 10px;
     font-size: 13px;
-    background-color:  rgb(81, 118, 63);
+    background-color: rgb(81, 118, 63);
     color: wheat;
     border: none;
     margin: 5px;
     cursor: pointer;
 }
 
-.img-container{
-    background-color: tomato;
-    width: 900px;
-    margin-left: 50px;
-    margin-top: 50px;
+.blog-container {
+    display: flex;
+    margin: 140px;
+
 }
 
+.blog-img {
+    width: 800px;
+}
+
+
+.blog-para p {
+    width: 400px;
+    text-align: start;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.blog-para h1 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 54px;
+    font-weight: 1500;
+    font-style: normal;
+
+}
+
+.blog-btn {
+    text-align: start;
+    margin-top: 15px;
+
+}
 

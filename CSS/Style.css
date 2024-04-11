@@ -216,10 +216,11 @@ footer .container .contact .info li span i{
 
 .copyrighttext{
     width: 100%;
-    background: #fff;
+    background: rgb(81, 118, 63);
     padding: 20px 100px 30px;
     text-align: center;
     border: 1px solid rgba(0,0,0,0.15);
+    color: wheat;
 }
 
 @media (max-width: 991px)
