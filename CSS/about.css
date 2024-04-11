@@ -35,3 +35,14 @@
   .socials {
     border-radius: 20px;
   }
+  .socials:hover {
+    text-decoration: none;
+    box-shadow: 4px 4px 4px 1px black;
+  }
+  
+  .first-3 .m1:hover {
+    box-shadow: 0 6px 28px black;
+    position: relative;
+    transform: translateY(-6px);
+    transition: 0.3s;
+  }
