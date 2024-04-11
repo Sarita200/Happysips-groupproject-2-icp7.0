@@ -50,6 +50,7 @@ function removeItem(){
     loadContent();
   }
 }
+
 //Change Quantity
 function changeQty(){
   if(isNaN(this.value) || this.value<1){
