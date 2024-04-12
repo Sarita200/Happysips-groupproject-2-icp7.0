@@ -47,7 +47,7 @@
           />
           <div class="simg">
             <img
-              src="/Icons/search-interface-symbol (1).png"
+              src="../Icons/search-interface-symbol (1).png"
               class="search-img"
             />
           </div>
@@ -61,33 +61,37 @@
           >
         </div>
         <ul class="middle">
-          <li class="current"><a href="/Pages/Home.html">Home </a></li>
-          <li><a href="/Pages/Blogs.html">Blog </a></li>
-          <li><a href="/Pages/Menu.html">Menu </a></li>
-          <li><a href="/Pages/Recipe.html">Recipe </a></li>
+          <li class="current"><a href="../Pages/Home.html">Home </a></li>
+          <li><a href="../Pages/Blogs.html">Blog </a></li>
+          <li><a href="../Pages/cateogary.html">Menu </a></li>
+          <li><a href="../Pages/Recipe.html">Recipe </a></li>
           <li>
             <select class="dropdown">
               <option value="actual value 1">Pages</option>
               <option value="actual value 2">
-                <a href="/Pages/Kids.html">Kids </a>
+                <a href="../Pages/Kids.html">Kids </a>
               </option>
 
               <option value="actual value 3">
-                <a href="/Pages/Aboutus.html">About </a>
+                <a href="../Pages/Aboutus.html">About </a>
               </option>
               <option value="actual value 3">
-                <a href="/Pages/Contact.html">Contact </a>
+                <a href="../Pages/Contact.html">Contact </a>
               </option>
             </select>
           </li>
         </ul>
 
         <div class="right">
-          <img src="/Icons/user (1).png" class="nav-img img2" />
-          <img src="/Icons/e-commerce (1).png" class="nav-img img2" />
-          <img src="/Icons/shopping-cart (1).png" class="nav-img img2" />
+          <img src="../Icons/user (1).png" class="nav-img img2" />
+          <img src="../Icons/e-commerce (1).png" class="nav-img img2" />
+          <img src="../Icons/shopping-cart (1).png" class="nav-img img2" />
+          <div class="hamburger">
+            <img src="../Icons/hamburger.png" class="nav-img img3">
+          </div>
         </div>
       </div>
+      
     </nav>
 
     <div class="hero">
@@ -99,9 +103,9 @@
         </h2>
       </div>
       <div class="hero-img">
-        <img src="/images/mix-fruits.png" class="image" />
-        <button type="button" class="hero-btn">
-        <img src="/Icons/next.png" alt="next" class="next">
+        <img src="../images/mix-fruits.png" class="image" />
+        <button type="button" class="hero-btn" onclick="next()" id="next">
+        <img src="../Icons/next.png" alt="next" class="next">
       </button> 
       </div>
     </div>
@@ -110,42 +114,49 @@
 
     <div class="category">
       <div class="card">
-        <img src="/images/green.webp" alt="fruit category" class="card-img" />
+        <img src="../images/green.webp" alt="fruit category" class="card-img" />
         
           <h3>Vegetable</h3>
         
       </div>
 
       <div class="card">
-        <img src="/images/yellow.webp" alt="fruit category" class="card-img" />
+        <img src="../images/yellow.webp" alt="fruit category" class="card-img" />
         <h3>Fruit Juices</h3>
       </div>
 
       <div class="card">
-        <img src="/images/red.webp" alt="fruit category" class="card-img" />
+        <img src="../images/red.webp" alt="fruit category" class="card-img" />
         <h3>Mixed Juices</h3>
       </div>
     </div>
 
+    <h1 class="subheading">Our Services</h1>
 
     <div class="services">
       <div class="service-card">
-      <img src="/Icons/express-delivery.png" alt="shipping" class="services-img">
+      <img src="../Icons/express-delivery.png" alt="shipping" class="services-img">
       <h3 class="service-text">Free Shipping</h3>
+      <p class="service-text">Faster Delivery</p>
     </div>
     <div class="service-card">
-      <img src="/Icons/sprout.png" alt="shipping" class="services-img" >
+      <img src="../Icons/sprout.png" alt="shipping" class="services-img" >
       <h3 class="service-text">Artisanal </h3>
+      <p class="service-text">Refreshing</p>
+
     </div>
 
     <div class="service-card">
-      <img src="/Icons/card.png" alt="shipping" class="services-img">
+      <img src="../Icons/card.png" alt="shipping" class="services-img">
       <h3 class="service-text">Secure Payment</h3>
+      <p class="service-text">Easy to Pay</p>
     </div>
 
     <div class="service-card">
-      <img src="/Icons/product-return.png" alt="shipping" class="services-img">
+      <img src="../Icons/product-return.png" alt="shipping" class="services-img">
       <h3 class="service-text">Easy Returns</h3>
+      <p class="service-text">7 Days return</p>
+
     </div>
 
     </div>
@@ -223,5 +234,13 @@
     <div class="copyrighttext">
       <p>Copyright © 2024 Happy Sips. All rights reserved.</p>
     </div>
+
+
+    <script>
+      function next(){
+        const btn = document.getElementById("next");
+        
+      }
+    </script>
   </body>
 </html>
