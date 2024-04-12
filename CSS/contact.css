@@ -5,20 +5,29 @@
 }
 
 .product-card-info {
-    background-image: url("./../images/juice-bg.png");
+    
+    background-image: linear-gradient(to right, #FDFC47 0%, #24FE41  51%, #FDFC47  100%);
+       
+      
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 1300px;
     height: 530px;
     border-radius: 20px;
-    background-color: #ffff;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: block;
     margin: 30px auto;
     padding: 3px;
 }
 
+.roduct-card-info:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
 .product-card-sm {
     width: 390px;
     height: 420px;
@@ -85,6 +94,39 @@
     width: 30px;
 }
 
+
+
+.maps {
+    margin-left: 400px;
+   margin-bottom: 50px;
+  
+}
+
+
+.title {
+    margin-left: 30px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    margin-top: 15px;
+
+}
+.heading-2 {
+    margin-left: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    
+    
+} 
+
+.icons {
+    width: 30px;
+   margin-left: 10px;
+  
+}
+
+
+
+
 @media (max-width: 991px) {
     .product-card-info {
         width: 95%;
@@ -129,3 +171,49 @@
     }
 
 }
+
+
+
+
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+          
+  .btn-grad {
+    background-image: linear-gradient(to right, #FDFC47 0%, #24FE41  51%, #FDFC47  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
