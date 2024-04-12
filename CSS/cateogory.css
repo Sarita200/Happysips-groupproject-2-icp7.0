@@ -56,6 +56,7 @@
   display: block;
   
   width: 300px;
+  height: 450px;
   text-align: left;
   
   
@@ -64,18 +65,17 @@
   box-shadow: 2px 3px 10px 2px black;
   margin: 5px;
   margin-left: 20px;
-  
+ 
   
 }
 
 .product-card:hover{
   
   
-  box-shadow: 3px 3px 8px 2px black;
-  transition: 2s;
-  height: 580px;
-  width: 320px;
-  
+  box-shadow: 0 6px 28px black;
+  position: relative;
+  transform: translateY(-6px);
+  transition: 0.3s;
   
 
 }
@@ -98,37 +98,47 @@
 .product-info
 {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   
-  margin: 10px auto;
+  margin: 0px auto;
 
 }
 
 .btn-container
 {
- display: flex;
- justify-content: center;
+
+ 
+ margin: 0 60px;
+ text-align: center;
+ 
+ 
+ 
+ 
+ 
 
  
 }
 
 .btn-quantity
 {
-  height: 50px;
-  padding-top: 10px;
-  margin: 5px 8px;
+  height: 40px;
+  /* margin-left: 80px; */
+  position: relative;
+  bottom: 8px;
+  
+  
+
+
 }
 
 .btn
 {
   
-  margin: 10px 70px;
-  text-align: center;
-  
+  margin-left: 20px;
   cursor: pointer;
   padding: 10px;
   width: 100px;
-  background-color: blue;
+  background-color: green;
   color: white;
   border-radius: 5px;
   border: none;
@@ -136,15 +146,19 @@
   
 }
 .btn:hover{
-background-color:green ;
-width: 110px;
-transition: 1s;
+  position: relative;
+  transform: translateY(-6px);
+  transition: 0.3s;
+  
 
 }
 .quantity-text
 {
   font-size: 25px;
-  margin-top: 17px;
+  position: relative;
+  bottom: 20px;
+  
+  
 
 }
 
@@ -160,7 +174,22 @@ transition: 1s;
   border-radius: 8px;
   display: flex;
   justify-content: space-around;
+  margin: 10px auto;
   
   
 }
 
+h1{
+  font-family: "Dancing Script", cursive;
+  
+}
+.add{
+
+  height: 55px;
+  /* margin-right: 90px;
+
+   */
+   
+  
+  
+}
