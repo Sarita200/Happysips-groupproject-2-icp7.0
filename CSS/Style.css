@@ -123,6 +123,9 @@ nav{
 .img2{
     margin-left: 30px;
 }
+.hamburger{
+    display: none;
+}
 
 footer{
     padding: 50px 100px;
@@ -216,10 +219,11 @@ footer .container .contact .info li span i{
 
 .copyrighttext{
     width: 100%;
-    background: #fff;
+    background: rgb(81, 118, 63);
     padding: 20px 100px 30px;
     text-align: center;
     border: 1px solid rgba(0,0,0,0.15);
+    color: wheat;
 }
 
 @media (max-width: 991px)
@@ -237,6 +241,18 @@ footer .container .contact .info li span i{
     }
 }
 
+@media (max-width:900px){
+    .section2 .middle{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
 @media (max-width: 768px)
 {
     
@@ -246,6 +262,10 @@ footer .container .contact .info li span i{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;}  
 
+    
+    .section1 .left{
+        display: none;
+    }
 }
 
 

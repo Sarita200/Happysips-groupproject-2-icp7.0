@@ -39,8 +39,6 @@
 .card{
     
     width: auto;
-
-    margin-bottom: 40px;
     cursor: pointer;
 }
 
@@ -116,5 +114,48 @@
     .image{
         height: 320px;
     }
+    .services{
+        flex-wrap: wrap;
+    }
+    
 }
+@media (max-width: 700px){
+    
+    .big-text{
+        font-size: 55px;
+    }
+    .image{
+        height: 250px;
+    }
+}
+
+@media (max-width: 500px){
+    
+    .big-text{
+        font-size: 40px;
+    }
+    .image{
+        height: 220px;
+    }
+}
+
+@media (max-width: 440px){
+    .small-text{
+        font-size: 15px;
+    }
+    
+    .big-text{
+        font-size: 25px;
+    }
+    .image{
+        height: 200px;
+    }
+    .services{
+        margin-left: 10px;
+    }
+    .subheading{
+        font-size: 50px;
+    }
+}
+
 
