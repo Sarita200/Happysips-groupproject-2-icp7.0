@@ -122,3 +122,26 @@ body{
    right:10px;
 
  }
+
+
+@media (max-width: 767px) {
+   .search-input {
+       width: 100%; 
+       margin-bottom: 10px; 
+   }
+   
+   .search-button{
+       width: 50%;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .search-input {
+       width: 50%; 
+       margin-bottom: 20px; 
+   }
+   
+   .search-button{
+       width: 50%; 
+   }
+}
