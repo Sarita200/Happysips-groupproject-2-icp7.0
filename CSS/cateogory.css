@@ -12,6 +12,8 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 2px 2px 10px 3px black;
+    text-decoration: none;
+    pointer-events: all;
 
 }
 
@@ -23,7 +25,7 @@
 
 .type-container{
     width: 30%;
-    margin-top: 100px;
+    margin-top: 30px;
     display: inline;
     text-align: center;
     display: flex;
@@ -192,4 +194,8 @@ h1{
    
   
   
+}
+
+.card-container_1{
+  border: none;
 }
