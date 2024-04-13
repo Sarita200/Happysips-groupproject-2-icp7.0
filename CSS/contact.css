@@ -1,11 +1,10 @@
 .hero {
     background-color: antiquewhite;
     width: 100%;
-
 }
 
 .product-card-info {
-    background-image: url("./../images/juice-bg.png");
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,46 +19,37 @@
 }
 
 .product-card-sm {
-    width: 390px;
+    width: 700px;
     height: 420px;
-    margin-left: 440px;
+    margin-left: 310px;
     border-radius: 20px;
     background-color: #ffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     padding: 3px;
-
 }
-
 
 .heading {
     margin-top: 7px;
-    margin-left: 550px;
+    margin-left: 600px;
     font-family: "Dancing Script", cursive;
-    color: #fff;
-}
-
-.bg-img {
-    width: 1500px;
-    height: 530;
-    margin-left: 50px;
-    margin-top: 200px;
+    color: black;
 }
 
 .main-btn {
-    margin-left: 120px;
+    margin-left: 290px;
     border-radius: 10px;
     border: none;
     background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
-    padding: 5px 25px;
+    padding: 10px 25px;
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: #001f4d;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
+    font-family: "Dancing Script", cursive;
 }
 
 .main-btn:hover {
@@ -69,8 +59,33 @@
 }
 
 #name {
-    margin-top: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 220px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#email {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 220px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#message {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 224px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.brand {
+    margin-left: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 15px;
 }
 
 .heading-1 {
@@ -78,12 +93,46 @@
     font-size: 30px;
     margin-left: 20px;
     margin-top: 10px;
-
 }
 
 .Icon {
     width: 30px;
 }
+
+.maps {
+    margin-left: 400px;
+    margin-bottom: 50px;
+
+}
+
+.maps:hover {
+    box-shadow: 0 0 20px gray;
+}
+
+.title {
+    margin-left: 30px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    margin-top: 15px;
+}
+
+.heading-2 {
+    margin-left: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+}
+
+.icons {
+    width: 30px;
+    margin-left: 10px;
+
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+
 
 @media (max-width: 991px) {
     .product-card-info {
@@ -92,17 +141,22 @@
     }
 
     .product-card-sm {
-        margin-left: 270px;
+        margin-left: 70px;
         display: grid;
         margin-top: 2px;
-
     }
 
     .heading {
         margin-left: 370px;
         display: grid;
         margin-top: 20px;
+    }
 
+    .maps {
+        margin-left: 230px;
+        width:70% ;
+        margin-bottom: 50px;
+    
     }
 
 }
@@ -114,8 +168,8 @@
     }
 
     .product-card-sm {
-        margin-left: 170px;
-        width: 50%;
+        margin-left: 70px;
+       width: 80%;
         display: grid;
         margin-top: 2px;
 
@@ -125,7 +179,16 @@
         margin-left: 280px;
         display: grid;
         margin-top: 20px;
+    }
+    .maps {
+        margin-left: 230px;
+        width:67% ;
+        height: 400px;
+        margin-bottom: 50px;
+    }
 
+    .main-btn {
+        margin-left: 230px;
     }
 
 }
