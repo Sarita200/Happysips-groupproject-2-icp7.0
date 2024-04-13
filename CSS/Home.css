@@ -24,7 +24,7 @@
     color: wheat;
 }
 
-.middle a{
+ a{
     text-decoration: none;
     color: wheat;
 }
@@ -106,6 +106,18 @@
     background: transparent;
     border: none;
 }
+
+.btn-read-more {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: rgb(81, 118, 63);
+    color: wheat;
+    border: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
 @media (max-width: 800px){
     
     .big-text{

@@ -111,6 +111,10 @@ nav{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: wheat;
+}
 
 .section2{
     display: flex;
