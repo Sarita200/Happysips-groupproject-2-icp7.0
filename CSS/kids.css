@@ -1,0 +1,12 @@
+.product-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if space is limited */
+    margin: 20px auto; /* Adjust margin as needed */
+}
+
+.product-card {
+    width: 300px; /* Adjust card width as needed */
+    margin-bottom: 20px; /* Adjust margin between cards as needed */
+    /* Other styles for your product cards */
+}
