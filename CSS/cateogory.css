@@ -67,10 +67,16 @@
   box-shadow: 2px 3px 10px 2px black;
   margin: 5px;
   margin-left: 20px;
+<<<<<<< HEAD
   background-color: rgb(209, 200, 73);
 
+=======
   
-}
+  }
+ 
+>>>>>>> 5fdb4c6d5a691e444a3cd5530e3bb2ba1518d3d3
+  
+
 
 .product-card:hover{
   
@@ -182,9 +188,13 @@
 }
 
 h1{
-  font-family: "Dancing Script", cursive;
-  
+  font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+ 
 }
+
 .add{
 
   height: 55px;
